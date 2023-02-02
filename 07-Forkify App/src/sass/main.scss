@@ -1,0 +1,13 @@
+// Sass is basically a better way of writing CSS,
+// which has some nice additional features,
+// which makes writing CSS in a large scale application a lot easier.
+// Now, browsers actually don't understand Sass and so it has to be converted to CSS.
+// And so Parcel is going to do that for us.
+
+@import "base";
+@import "components";
+@import "header";
+@import "preview";
+@import "searchResults";
+@import "recipe";
+@import "upload";
